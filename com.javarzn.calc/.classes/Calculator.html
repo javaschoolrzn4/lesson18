@@ -1,0 +1,162 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Calculator</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.javarzn.calc</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Calculator (com.javarzn.calc)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Calculator</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    70%
+  </span>
+  <span class="absValue">
+    (7/ 10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    70%
+  </span>
+  <span class="absValue">
+    (7/ 10)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.javarzn.calc;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;/**
+<i>4</i>&nbsp; * Пример приложения &quot;Калькулятор&quot;.
+<i>5</i>&nbsp; */
+<b class="fc"><i>6</i>&nbsp;public class Calculator {</b>
+<i>7</i>&nbsp;    /**
+<i>8</i>&nbsp;     * Сложение.
+<i>9</i>&nbsp;     *
+<i>10</i>&nbsp;     * @param n1 слагаемое
+<i>11</i>&nbsp;     * @param n2 слагаемое
+<i>12</i>&nbsp;     * @return сумма
+<i>13</i>&nbsp;     */
+<i>14</i>&nbsp;    public long summarize(long n1, long n2) {
+<b class="fc"><i>15</i>&nbsp;        return n1 + n2;</b>
+<i>16</i>&nbsp;    }
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    /**
+<i>19</i>&nbsp;     * Вычитание.
+<i>20</i>&nbsp;     *
+<i>21</i>&nbsp;     * @param n1 уменьшаемое
+<i>22</i>&nbsp;     * @param n2 вычитаемое
+<i>23</i>&nbsp;     * @return разность
+<i>24</i>&nbsp;     */
+<i>25</i>&nbsp;    public long subtract(long n1, long n2) {
+<b class="nc"><i>26</i>&nbsp;        return n1 - n2;</b>
+<i>27</i>&nbsp;    }
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;    /**
+<i>30</i>&nbsp;     * Умножение.
+<i>31</i>&nbsp;     *
+<i>32</i>&nbsp;     * @param n1 первый множитель
+<i>33</i>&nbsp;     * @param n2 второй множитель
+<i>34</i>&nbsp;     * @return произведение
+<i>35</i>&nbsp;     */
+<i>36</i>&nbsp;    public long multiply(long n1, long n2) {
+<b class="nc"><i>37</i>&nbsp;        return n1 * n2;</b>
+<i>38</i>&nbsp;    }
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    /**
+<i>41</i>&nbsp;     * Деление.
+<i>42</i>&nbsp;     *
+<i>43</i>&nbsp;     * @param n1 делимое
+<i>44</i>&nbsp;     * @param n2 делитель
+<i>45</i>&nbsp;     * @return частное
+<i>46</i>&nbsp;     */
+<i>47</i>&nbsp;    public long divide(long n1, long n2) {
+<b class="nc"><i>48</i>&nbsp;        return n1 / n2;</b>
+<i>49</i>&nbsp;    }
+<i>50</i>&nbsp;
+<i>51</i>&nbsp;    /**
+<i>52</i>&nbsp;     * Корень
+<i>53</i>&nbsp;     *
+<i>54</i>&nbsp;     * @param n
+<i>55</i>&nbsp;     * @return
+<i>56</i>&nbsp;     */
+<i>57</i>&nbsp;
+<i>58</i>&nbsp;
+<i>59</i>&nbsp;    public long sqrt(long n) {
+<b class="fc"><i>60</i>&nbsp;        return (long) Math.sqrt(n);</b>
+<i>61</i>&nbsp;    }
+<i>62</i>&nbsp;    public long pow(long a, long b) {
+<b class="fc"><i>63</i>&nbsp;        return (long) Math.pow(a, b);</b>
+<i>64</i>&nbsp;    }
+<i>65</i>&nbsp;    public long sin(long a) {
+<b class="fc"><i>66</i>&nbsp;        return (long) Math.sin(a);</b>
+<i>67</i>&nbsp;    }
+<i>68</i>&nbsp;    public long cos(long a) {
+<b class="fc"><i>69</i>&nbsp;        return (long) Math.cos(a);</b>
+<i>70</i>&nbsp;    }
+<i>71</i>&nbsp;    public long tan(long a) {
+<b class="fc"><i>72</i>&nbsp;        return (long) Math.tan(a);</b>
+<i>73</i>&nbsp;    }
+<i>74</i>&nbsp;}
+<i>75</i>&nbsp;
+<i>76</i>&nbsp;
+<i>77</i>&nbsp;
+<i>78</i>&nbsp;
+<i>79</i>&nbsp;
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-03-17 12:37</div>
+</div>
+</body>
+</html>

@@ -3,15 +3,7 @@ package com.javarzn.base;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.CoreMatchers.either;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNotSame;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import java.util.Arrays;
 
@@ -51,6 +43,7 @@ public class TestClassBAsserts {
     @Test
     public void testAssertNotEquals() {
         //    напишите свою реализацию
+        assertNotEquals("failure - strings are not equal", "text", "test");
     }
 
     @Test

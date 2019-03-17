@@ -47,6 +47,30 @@ public class Calculator {
     public long divide(long n1, long n2) {
         return n1 / n2;
     }
+
+    /**
+     * Корень
+     *
+     * @param n
+     * @return
+     */
+
+
+    public long sqrt(long n) {
+        return (long) Math.sqrt(n);
+    }
+    public long pow(long a, long b) {
+        return (long) Math.pow(a, b);
+    }
+    public long sin(long a) {
+        return (long) Math.sin(a);
+    }
+    public long cos(long a) {
+        return (long) Math.cos(a);
+    }
+    public long tan(long a) {
+        return (long) Math.tan(a);
+    }
 }
 
 
